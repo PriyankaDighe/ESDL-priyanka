@@ -5,8 +5,10 @@ using namespace std;
 
 int main()
 {
-
-cout<<"Hello!..This is a sample program"<<endl;
+char name[20];
+cout<<"enter your name"<<endl;
+cin>>name;
+cout<<"Hello "<<name<<"!..This is a sample program"<<endl;
 return 0;
 
 }
